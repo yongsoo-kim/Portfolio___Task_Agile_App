@@ -31,3 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
+
+## For security, DB and user info should be ignored.
+/src/main/resources/application-dev.properties
