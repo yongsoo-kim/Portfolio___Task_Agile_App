@@ -43,6 +43,14 @@
 			<optional>true</optional>
 		</dependency>
 
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.16</version>
+      <scope>provided</scope>
+    </dependency>
+
+
     <!--DB -->
     <dependency>
       <groupId>mysql</groupId>
@@ -60,7 +68,13 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-	</dependencies>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.9</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
 
 	<build>
 		<plugins>
